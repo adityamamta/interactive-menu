@@ -136,6 +136,9 @@ main {
     html {
         font-size: 55%;
     }
+    main {
+        padding-inline: 2rem;
+    }
     .button-container {
         gap: .6rem;
     }

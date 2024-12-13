@@ -34,16 +34,4 @@ document.querySelectorAll('.div-emow').forEach((button, index) => {
     });
 });
 
-container.addEventListener('mouseleave', () => {
-    divContainer.style.height = '0';
-
-    absDivs.forEach((div) => {
-        div.style.left = '0';
-        div.style.visibility = 'hidden';
-    });
-
-    buttons.forEach((button) => {
-        button.classList.remove('hover');
-    });
-});
 
